@@ -18,14 +18,16 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:typescript-sort-keys/recommended",
     "plugin:import/recommended",
-    "plugin:node/recommended"
+    "plugin:node/recommended",
+    "prettier"
   ],
 
   "plugins": [
     "@typescript-eslint",
     "typescript-sort-keys",
     "sort-keys-fix",
-    "sort-destructure-keys"
+    "sort-destructure-keys",
+    "prettier"
   ],
 
   "rules": {
@@ -33,7 +35,8 @@
     "sort-destructure-keys/sort-destructure-keys": "warn",
     "node/no-unpublished-require": "off",
     "node/no-unpublished-import": "off",
-    "node/no-missing-import": "off"
+    "node/no-missing-import": "off",
+    "prettier/prettier": "error"
   },
 
   "settings": {
