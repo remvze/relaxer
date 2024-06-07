@@ -2,6 +2,10 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "moduleResolution": "bundler",
-    "module": "ESNext"
+    "module": "ESNext",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
   }
 }
