@@ -39,7 +39,7 @@ Supported breathing exercises:
 
 🚧 Please check [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Support Lowfi
+## Support Relaxer
 
 ⭐ Give a star if you liked this project.
 
