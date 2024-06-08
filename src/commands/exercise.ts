@@ -1,17 +1,18 @@
 import ora from 'ora';
-import logSymbols from 'log-symbols';
 
 import { boxBreathing } from '@/exercises/box';
 import { fourSevenEightBreathing } from '@/exercises/four-seven-eight';
 import { pursedLipBreathing } from '@/exercises/pursed-lip';
 import { resonantBreathing } from '@/exercises/resonant';
 
+import { info } from '@/lib/logger';
+
 interface Options {
   type: string;
 }
 
 export async function exerciseCommand({ type }: Options) {
-  console.log(logSymbols.info, 'Press Ctrl+C to stop the exercise.');
+  info('Press Ctrl+C to stop the exercise.');
 
   const spinner = ora({ text: '' });
   const startTime = Date.now();
