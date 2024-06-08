@@ -37,7 +37,9 @@
     "node/no-unpublished-import": "off",
     "node/no-missing-import": "off",
     "node/shebang": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-constant-condition": "off",
+    "no-process-exit": "off"
   },
 
   "settings": {
