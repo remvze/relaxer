@@ -1,4 +1,5 @@
 import ora from 'ora';
+import chalk from 'chalk';
 
 import { boxBreathing } from '@/exercises/box';
 import { fourSevenEightBreathing } from '@/exercises/four-seven-eight';
@@ -12,7 +13,7 @@ interface Options {
 }
 
 export async function exerciseCommand({ type }: Options) {
-  info('Press Ctrl+C to stop the exercise.');
+  info(`Press ${chalk.bold.whiteBright('Ctrl+C')} to stop the exercise.`);
 
   const spinner = ora({ text: '' });
   const startTime = Date.now();

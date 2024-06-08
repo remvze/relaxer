@@ -10,11 +10,11 @@ export function info(message: string) {
 
 export async function logStep(step: string, duration: number, spinner: Ora) {
   for (let i = duration; i > 0; i--) {
-    spinner.text = `${chalk.whiteBright(step)} ${chalk.gray(`(${i} seconds left)`)}`;
+    spinner.text = `${chalk.bold.whiteBright(step)} ${chalk.gray(`(${i} seconds left)`)}`;
     await sleep(1000);
   }
 }
 
 export function logExerciseName(name: string) {
-  info(`${chalk.whiteBright('Selected Exercise')}: ${name}\n`);
+  info(`${chalk.bold.whiteBright('Selected Exercise')}: ${name}\n`);
 }
