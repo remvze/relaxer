@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/remvze/relaxer/compare/v0.1.0...v0.1.1) (2024-06-08)
+
+
+### 🐛 Bug Fixes
+
+* change name ([05c1603](https://github.com/remvze/relaxer/commit/05c16037f81fa2457f7ed5b1f4e22e6058aa9a4a))
+
 ## [0.1.0](https://github.com/remvze/relaxer/compare/v0.0.0...v0.1.0) (2024-06-08)
 
 

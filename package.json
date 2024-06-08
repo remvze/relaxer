@@ -1,6 +1,6 @@
 {
   "name": "relaxer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "🎈 Breathing exercises in your terminal.",
   "main": "dist/bin/relaxer.js",
   "type": "module",
