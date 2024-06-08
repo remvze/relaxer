@@ -36,6 +36,7 @@
     "node/no-unpublished-require": "off",
     "node/no-unpublished-import": "off",
     "node/no-missing-import": "off",
+    "node/shebang": "off",
     "prettier/prettier": "error"
   },
 

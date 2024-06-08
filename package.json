@@ -4,6 +4,12 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "relaxer": "dist/bin/relaxer.js"
+  },
+  "files": [
+    "dist/bin/relaxer.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .js,.ts",
@@ -45,5 +51,8 @@
     "prettier": "3.3.1",
     "standard-version": "9.5.0",
     "tsup": "8.1.0"
+  },
+  "dependencies": {
+    "commander": "12.1.0"
   }
 }
