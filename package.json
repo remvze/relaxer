@@ -1,8 +1,8 @@
 {
   "name": "relaxer",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "🎈 Breathing exercises in your terminal.",
+  "main": "dist/bin/relaxer.js",
   "type": "module",
   "bin": {
     "relaxer": "dist/bin/relaxer.js"
@@ -24,9 +24,21 @@
     "build": "tsup-node",
     "dev": "tsup-node --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "breathing",
+    "breathing-exercise",
+    "cli"
+  ],
+  "author": "MAZE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remvze/relaxer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remvze/relaxer/issues"
+  },
+  "homepage": "https://github.com/remvze/relaxer#readme",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
