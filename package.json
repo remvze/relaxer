@@ -22,7 +22,8 @@
     "release:minor": "npm run release -- --release-as minor",
     "release:patch": "npm run release -- --release-as patch",
     "build": "tsup-node",
-    "dev": "tsup-node --watch"
+    "dev": "tsup-node --watch",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "breathing",
