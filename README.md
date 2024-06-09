@@ -45,18 +45,32 @@ relaxer exercise
 
 **Options:**
 
-- `type`: The type of the exercise (i.e., `box`, `4-7-8`, `pursed-lip`, `resonant`)
+- `--type <type>`: The type of the exercise (i.e., `box`, `4-7-8`, `pursed-lip`, `resonant`).
 
 ## Contributing
 
-Please check [CONTRIBUTING.md](CONTRIBUTING.md) file.
+We welcome contributions from the community! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with a descriptive commit message.
+4. Push your changes to your fork.
+5. Open a pull request with a detailed description of your changes.
+
+Please make sure to follow our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Support Relaxer
 
-Give a star if you liked this project.
+If you find this project useful, please consider supporting it by giving it a star on GitHub. Your support helps us continue to improve and maintain the project.
 
-[Buy Me a Coffee](https://buymeacoffee.com/remvze) to help me maintain Relaxer.
+You can also support the project by [making a donation](https://buymeacoffee.com/remvze). Every little bit helps and is greatly appreciated!
+
+Thank you for your support!
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for using Relaxer! If you have any questions or feedback, please open an issue on GitHub.
