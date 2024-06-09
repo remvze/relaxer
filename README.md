@@ -39,6 +39,8 @@ relaxer --help
 
 ### `exercise`
 
+Start a breathing exercise.
+
 ```bash
 relaxer exercise
 ```
@@ -59,7 +61,7 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 Please make sure to follow our [Contributing Guidelines](CONTRIBUTING.md).
 
-## Support Relaxer
+## Support
 
 If you find this project useful, please consider supporting it by giving it a star on GitHub. Your support helps us continue to improve and maintain the project.
 
