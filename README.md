@@ -6,13 +6,13 @@
 
 ## Table of Contents
 
-- ⚡ [Installation](#-installation)
-- ✨ [Usage](#-usage)
+- ⚡ [Installation](#installation)
+- ✨ [Usage](#usage)
 - 🚧 [Contributing](#contributing)
-- ⭐ [Support](#support-lowfi)
-- 📜 [License](#-license)
+- ⭐ [Support](#support)
+- 📜 [License](#license)
 
-## ⚡ Installation
+## Installation
 
 To install Relaxer, use npm or any other package manager:
 
@@ -20,7 +20,7 @@ To install Relaxer, use npm or any other package manager:
 npm install -g relaxer
 ```
 
-## ✨ Usage
+## Usage
 
 Starting a breathing exercise:
 
@@ -37,14 +37,14 @@ Supported breathing exercises:
 
 ## Contributing
 
-🚧 Please check [CONTRIBUTING.md](CONTRIBUTING.md) file.
+Please check [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Support Relaxer
 
-⭐ Give a star if you liked this project.
+Give a star if you liked this project.
 
-☕ [Buy Me a Coffee](https://buymeacoffee.com/remvze) to help me maintain Relaxer.
+[Buy Me a Coffee](https://buymeacoffee.com/remvze) to help me maintain Relaxer.
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
