@@ -57,7 +57,7 @@ We welcome contributions from the community! If you'd like to contribute, please
 4. Push your changes to your fork.
 5. Open a pull request with a detailed description of your changes.
 
-Please make sure to follow our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md).
+Please make sure to follow our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## Support Relaxer
 

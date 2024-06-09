@@ -63,10 +63,6 @@ Improving documentation is a valuable way to contribute to the project. If you f
 3. A project maintainer will review your PR and provide feedback if necessary.
 4. Once your PR is approved, it will be merged into the `main` branch.
 
-## Code of Conduct
-
-This project and everyone participating in it is governed by the [Relaxer Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-
 ## Thank You!
 
 Thank you for considering contributing to Relaxer! Your contributions are greatly appreciated and help to improve the project for everyone.
