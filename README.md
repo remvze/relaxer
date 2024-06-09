@@ -8,13 +8,14 @@
 
 - ⚡ [Installation](#installation)
 - ✨ [Usage](#usage)
+- 🔮 [Commands](#commands)
 - 🚧 [Contributing](#contributing)
 - ⭐ [Support](#support)
 - 📜 [License](#license)
 
 ## Installation
 
-To install Relaxer, use npm or any other package manager:
+To install Relaxer, you need Node.js and npm installed on your machine. You can install the CLI tool globally using the following command:
 
 ```bash
 npm install -g relaxer
@@ -22,18 +23,29 @@ npm install -g relaxer
 
 ## Usage
 
-Starting a breathing exercise:
+After installation, you can run the CLI tool using the following command:
 
 ```bash
-relaxer exercise --type box
+relaxer [command] [options]
 ```
 
-Supported breathing exercises:
+To see a list of available commands and options, run:
 
-- **Box Breathing** (`--type box`)
-- **4-7-8 Breathing** (`--type 4-7-8`)
-- **Pursed Lip Breathing** (`--type pursed-lip`)
-- **Resonant Breathing** (`--type resonant`)
+```bash
+relaxer --help
+```
+
+## Commands
+
+### `exercise`
+
+```bash
+relaxer exercise
+```
+
+**Options:**
+
+- `type`: The type of the exercise (i.e., `box`, `4-7-8`, `pursed-lip`, `resonant`)
 
 ## Contributing
 
