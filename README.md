@@ -9,7 +9,7 @@
 - ⚡ [Installation](#installation)
 - ✨ [Usage](#usage)
 - 🔮 [Commands](#commands)
-- 🚧 [Contributing](#contributing)
+- 🤝 [Contributing](#contributing)
 - ⭐ [Support](#support)
 - 📜 [License](#license)
 
