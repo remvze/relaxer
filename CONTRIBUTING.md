@@ -65,7 +65,7 @@ Improving documentation is a valuable way to contribute to the project. If you f
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [MyNpmCliTool Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [your-email@example.com].
+This project and everyone participating in it is governed by the [Relaxer Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## Thank You!
 
