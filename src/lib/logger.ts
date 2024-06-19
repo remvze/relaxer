@@ -8,6 +8,10 @@ export function info(message: string) {
   console.log(logSymbols.info, message);
 }
 
+export function error(message: string) {
+  console.error(logSymbols.error, message);
+}
+
 export async function logStep(step: string, duration: number, spinner: Ora) {
   for (let i = duration; i > 0; i--) {
     spinner.text = `${chalk.bold.whiteBright(step)} ${chalk.gray(`(${i} seconds left)`)}`;

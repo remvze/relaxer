@@ -1,6 +1,7 @@
 import { Command } from 'commander';
 
 import { exerciseCommand } from './commands/exercise';
+import { customCommand } from './commands/cutsom';
 
 import pkg from '../package.json';
 
@@ -20,5 +21,22 @@ program
     'box',
   )
   .action(exerciseCommand);
+
+program
+  .command('custom')
+  .description('Start a custom breathing exercise')
+  .requiredOption('--inhale <seconds>', 'Custom breath in time in seconds')
+  .option(
+    '--hold-inhale <seconds>',
+    'Custom hold time after inhaling in seconds',
+    '0',
+  )
+  .requiredOption('--exhale <seconds>', 'Custom breath out time in seconds')
+  .option(
+    '--hold-exhale <seconds>',
+    'Custom hold time after exhaling in seconds',
+    '0',
+  )
+  .action(customCommand);
 
 export { program };
