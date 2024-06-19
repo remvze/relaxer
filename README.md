@@ -42,12 +42,27 @@ relaxer --help
 Start a breathing exercise.
 
 ```bash
-relaxer exercise
+relaxer exercise [options]
 ```
 
 **Options:**
 
 - `--type <type>`: The type of the exercise (i.e., `box`, `4-7-8`, `pursed-lip`, `resonant`).
+
+### `custom`
+
+Start a custom breathing exercise.
+
+```bash
+relaxer custom [options]
+```
+
+**Options:**
+
+- `--inhale <seconds>`: Custom breath in time in seconds. **(Required)**
+- `--hold-inhale <seconds>`: Custom hold time after inhaling in seconds.
+- `--exhale <seconds>`: Custom breath out time in seconds. **(Required)**
+- `--hold-exhale <seconds>`: Custom hold time after exhaling in seconds.
 
 ## Contributing
 
