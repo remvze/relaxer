@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/remvze/relaxer/compare/v0.1.2...v0.2.0) (2024-06-19)
+
+
+### ✨ Features
+
+* add custom breathing exercise ([402f46c](https://github.com/remvze/relaxer/commit/402f46c1bab339e07ca1bee5f1a026dde32b2a89))
+
+
+### 🚚 Chores
+
+* add custom breathing to README file ([c991e3a](https://github.com/remvze/relaxer/commit/c991e3a85fa8ac9efa556d7db147030f03ca9eea))
+
 ### [0.1.2](https://github.com/remvze/relaxer/compare/v0.1.1...v0.1.2) (2024-06-10)
 
 
